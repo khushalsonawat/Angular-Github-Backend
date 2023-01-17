@@ -34,7 +34,6 @@ class SendRepoDataView(RetrieveAPIView):
             data_to_be_sent = {}
             if serialized_data.is_valid():
                 data_to_be_sent = serialized_data.data
-                print(serialized_data.errors)
             return Response(data_to_be_sent, status=response.status_code)
 
         else:
