@@ -71,7 +71,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200",
+    "https://angular-github-frontend.netlify.app"
+    # "http://localhost:4200",
 ]
 
 ROOT_URLCONF = 'backend.urls'
